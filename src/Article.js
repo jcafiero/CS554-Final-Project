@@ -93,7 +93,7 @@ class Article extends Component {
     } else {
       courseName = (
         <div className="course-name">
-          <a href="#">Stevens</a>
+          <a href="/">Stevens</a>
         </div>
       );
     }
