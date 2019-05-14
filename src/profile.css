@@ -1,0 +1,13 @@
+.profile {
+  padding: 15px 25px;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.course-list, .review-list {
+  text-align: left;
+  margin: auto;
+}
+
+.profile h2 {
+  font-family: 'Shadows Into Light', cursive;
+}
