@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './ArticleFiles.css';
 import EventList from './EventList';
+import EventBtn from './EventBtn';
 
 import events from './event_data';
 
@@ -22,6 +23,7 @@ class EventsContainer extends Component {
     console.log(this.state.events);
     let body = (
       <div className="container">
+          <EventBtn />
           <EventList events={this.state.events} />
       </div>
     );

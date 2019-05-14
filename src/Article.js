@@ -12,9 +12,9 @@ class Article extends Component {
   }
 
   componentDidMount() {
-    console.log(
-      "Article", this.props
-    );
+    // console.log(
+    //   "Article", this.props
+    // );
     this.setState({
       // votes: this.props.votes,
       title: this.props.title,

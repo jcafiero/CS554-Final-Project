@@ -29,11 +29,11 @@ async componentDidMount() {
       <div className="App">
         <Navbar />
 
-        <Profile profile={this.state.profile} />
+        {/* <Profile profile={this.state.profile} /> */}
         
-        {/* <ArticleContainer articles={this.state.articles}/> */}
+        <ArticleContainer articles={this.state.articles}/>
 
-        {/* <EventsContainer events={this.state.articles} /> */}
+        <EventsContainer events={this.state.articles} />
       </div>
     );
   }
